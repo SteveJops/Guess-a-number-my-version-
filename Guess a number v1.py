@@ -10,10 +10,6 @@ player_repeat = 0
 
 #print(number)
 while True:
-    # try:
-    #     player_choice = str(input('Enter your number: \n>>>'))
-    # except Exceptions:
-    #     print('Only integer digits')
     player_choice = int(input('Enter your number: \n>>>'))
     check += 1
     if number == player_choice:
